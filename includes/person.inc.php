@@ -5,8 +5,10 @@ class Person {
     public $eyecolor;
     public $age;
 
-    public function setName($name) {
+    public function setName($name, $eyecolor, $age) {
         $this->name = $name;
+        $this->eyecolor = $eyecolor;
+        $this->age = $age;
 
     }
 }

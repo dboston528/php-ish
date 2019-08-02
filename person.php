@@ -13,8 +13,10 @@ include 'includes/person.inc.php'
   <body>
 <?php
     $person1 = new Person();
-    $person1-> setName('DeAndre');
+    $person1-> setName('DeAndre', 'Brown', '30');
     echo $person1->name;
+    echo $person1->eyecolor;
+    echo $person1->age;
 ?>
   </body>
 </html>
