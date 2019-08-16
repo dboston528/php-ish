@@ -2,5 +2,5 @@
 Practicing with php
 
 
-# run a quick server on a mac
-`python -m SimpleHTTPServer 8000  `
+# run a quick php server on a mac
+`php -S localhost:9000  `
