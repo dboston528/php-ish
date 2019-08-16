@@ -17,6 +17,7 @@ include 'includes/person.inc.php'
     echo $person1->name;
     echo $person1->eyecolor;
     echo $person1->age;
+    echo $person1
 ?>
   </body>
 </html>
