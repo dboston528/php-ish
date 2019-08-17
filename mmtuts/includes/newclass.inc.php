@@ -11,7 +11,11 @@
 class NewClass {
 
     //Properties and methods go here
+
+    //Ths is is an exampele of a property
     public $info = "This is some info";
+
+
 
 
 }
